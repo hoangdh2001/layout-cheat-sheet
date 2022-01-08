@@ -123,7 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ],
           ),),
-          new Positioned(child: Container(color: Color.fromRGBO(0, 0, 0, 0.4), width: 150, height: 150,), top: size.height / 2 + 30, left: 30,)
+          new Positioned(child: Container(color: Color.fromRGBO(0, 0, 0, 0.4), width: size.width / 3, height: size.height / 6,), top: size.height / 2 + 30, left: 30,)
         ],
       ),
       floatingActionButton: FloatingActionButton(
